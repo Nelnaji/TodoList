@@ -112,17 +112,21 @@ nav {
 /* styling des icones */
 .icons {
     display: flex;
-    gap: 1rem;
+    gap: 1.6rem;
 }
 
 .icon {
     color: hsla(46, 100%, 50%, 0.903);
     font-size: 2rem;
     transition: .1s;
-
 }
 
 .icon:hover {
     color: hsla(46, 100%, 77%, 0.903);
     cursor: pointer;
+}
+
+p {
+    font-size: 1.6rem;
+    color: rgba(39, 39, 39, 0.863);
 }
