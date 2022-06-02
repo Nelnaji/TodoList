@@ -104,4 +104,25 @@ nav {
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* styling des icones */
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    color: hsla(46, 100%, 50%, 0.903);
+    font-size: 2rem;
+    transition: .1s;
+
+}
+
+.icon:hover {
+    color: hsla(46, 100%, 77%, 0.903);
+    cursor: pointer;
 }
